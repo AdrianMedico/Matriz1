@@ -11,7 +11,7 @@ int main() {
     do{
     printf("\nDame el numero de filas, maximo 10: ");
     scanf("%d", &filas);
-    }while( filas > 10 || filas < 10 );
+    }while( filas > 10 || filas < 0 );
 
     for(i = 0; i<filas ; i++) {
         for(j = 0; j<col ; j++) {
